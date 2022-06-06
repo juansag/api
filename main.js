@@ -20,18 +20,18 @@ function traerinfo(inform){
 
 
 function reinfo(inform){
-    const name = document.createElement('h3');
+    const name = document.querySelector('.titulo1');
     name.textContent = inform.name;
 
-    const edad = document.createElement('h3');
+    const edad = document.querySelector('.titulo2');
     edad.textContent = inform.age;
 
-    const num = document.createElement('h3');
+    const num = document.querySelector('.titulo3');
     num.textContent = inform.count;
 
 
 
-   const div = document.createElement('div');
+   const div = document.querySelector('.resultados');
    div.appendChild(name);
     div.appendChild(edad);
     div.appendChild(num);
